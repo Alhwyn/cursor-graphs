@@ -3,7 +3,7 @@ import { colorForModel } from "./colors";
 import type { RaceData, RankedBar } from "./types";
 
 const TOP_N = 10;
-const ROW_H = 48;
+const ROW_H = 64;
 /** ~140ms per day → ~45s full run with daily frames. */
 const MS_PER_FRAME = 140;
 /** Rank swaps settle smoothly. */

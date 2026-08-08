@@ -25,6 +25,7 @@ export const colorForModel = (model: string): string => {
   if (m.includes("grok")) return MODEL_PALETTE.grok;
   if (m.includes("gemini")) return MODEL_PALETTE.gemini;
   if (m.includes("gpt-5.5")) return MODEL_PALETTE.gpt55;
+  if (m.includes("agent_review")) return MODEL_PALETTE.gpt55;
 
   return MODEL_PALETTE.rest;
 };

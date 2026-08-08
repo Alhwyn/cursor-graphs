@@ -128,7 +128,7 @@ body,
   left: 0;
   right: 0;
   top: 0;
-  height: 44px;
+  height: 60px;
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 1rem;
@@ -174,7 +174,7 @@ body,
 }
 
 .race-bar {
-  height: 30px;
+  height: 48px;
   border-radius: 0;
   min-width: 2px;
 }
